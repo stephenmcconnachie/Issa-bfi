@@ -10,11 +10,11 @@ dependencies = [
     "huggingface-hub[cli]>=0.36.0",
     "openai-whisper>=20250625",
     "opencv-python>=4.12.0.88",
-    "pillow>=12.0.0",
+    "pillow>=12.3.0",
     "timm>=1.0.22",
-    "torch>=2.9.0",
+    "torch>=2.13.0",
     "tqdm>=4.67.1",
-    "transformers>=4.57.1",
+    "transformers>=5.5.0",
     "typer>=0.20.0",
     "openai>=2.9.0",
     "python-dotenv>=1.2.0",
@@ -22,14 +22,14 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "pytest>=9.0.0",
+    "pytest>=9.0.3",
     "ruff>=0.14.3",
     "pytest-cov>=6.0.0",
     "pytest-mock>=3.14.0",
 ]
 
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=83.0.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.pytest.ini_options]
